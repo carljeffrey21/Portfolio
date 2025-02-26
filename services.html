@@ -1,80 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Carl Portfolio">
-    <meta name="keywords" content="CarlPortfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Carl Portfolio" />
+    <meta name="keywords" content="CarlPortfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Services</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <a href="home.html" class="logo">Carl Jeffrey De Guzman</a>
+      <a href="home.html" class="logo">Carl Jeffrey De Guzman</a>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-        <nav class="navbar">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Service</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+      <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Service</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
     <section class="services" id="services">
-        <h2 class="heading">My <span>Services</span></h2>
+      <h2 class="heading">My <span>Services</span></h2>
 
-        <div class="services-container">
-            <div class="services-box">
-                <i class="bx bx-code"></i>
-                <h3>Web Development</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus harum perferendis debitis enim
-                    autem, totam similique iure, quibusdam possimus laudantium dolorem obcaecati quidem est quam non
-                    deleniti reprehenderit quo nobis.
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class="bx bx-palette"></i>
-                <h3>Graphics Design</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus harum perferendis debitis enim
-                    autem, totam similique iure, quibusdam possimus laudantium dolorem obcaecati quidem est quam non
-                    deleniti reprehenderit quo nobis.
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class="bx bx-chip"></i>
-                <h3>Hardware Servicing</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus harum perferendis debitis enim
-                    autem, totam similique iure, quibusdam possimus laudantium dolorem obcaecati quidem est quam non
-                    deleniti reprehenderit quo nobis.
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code"></i>
+          <h3>Software/Web Development</h3>
+          <p>
+            Software development involves creating applications for desktop,
+            mobile, or cloud platforms, focusing on functionality and user
+            needs. Web development, a subset, specializes in building websites
+            and web applications using frontend and backend technologies to
+            enhance online user experiences and performance.
+          </p>
+          <p id="showElement-ser1">
+            Web development, a specialized branch of software development,
+            focuses on creating websites and web applications accessible through
+            the internet. It includes frontend development, which deals with
+            user interface and experience using technologies like HTML, CSS, and
+            JavaScript, and backend development, which handles server-side
+            logic, databases, and APIs using languages like Python, PHP, or
+            Node.js. Full-stack developers work on both frontend and backend
+            aspects, ensuring seamless functionality and user interaction. With
+            the rise of cloud computing, progressive web apps, and responsive
+            design, web development continues to evolve, making it essential for
+            businesses and individuals to establish a strong online presence.
+          </p>
+          <button
+            type="button"
+            class="btn"
+            onclick="document.getElementById('showElement-ser1').style.display='block'"
+          >
+            Read More
+          </button>
         </div>
+        <div class="services-box">
+          <i class="bx bx-palette"></i>
+          <h3>Graphics Design</h3>
+          <p>
+            Graphic design is a creative discipline that combines typography,
+            images, and layouts to visually communicate messages. <br /><br />
+            It plays a vital role in branding, marketing, and digital media,
+            helping businesses convey their identity, engage audiences, and
+            create memorable experiences through visually appealing designs.
+          </p>
+          <p id="showElement-ser2">
+            Beyond technical expertise, I believe that collaboration and
+            continuous learning are key to success in this field. Working in
+            team environments has allowed me to refine my communication skills,
+            ensuring seamless coordination with designers, project managers, and
+            fellow developers. I have experience working in Agile development
+            settings, where adaptability and problem-solving are crucial.
+            Additionally, I am always eager to explore emerging technologies
+            such as artificial intelligence, cloud computing, and cybersecurity
+            to stay ahead of industry trends and deliver innovative solutions.
+            What truly drives me as a developer is the opportunity to create
+            impactful software that enhances people's lives. I take pride in
+            writing clean, maintainable code that contributes to scalable and
+            efficient systems. Whether developing a user-friendly mobile app or
+            automating a business process, I find satisfaction in knowing that
+            my work has a real-world impact. Looking ahead, I am excited to
+            continue growing as a developer, embracing new challenges, and
+            contributing to projects that make a difference.
+          </p>
+          <button
+            type="button"
+            class="btn"
+            onclick="document.getElementById('showElement-ser2').style.display='block'"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-chip"></i>
+          <h3>Hardware Servicing</h3>
+          <p>
+            Hardware servicing involves the diagnosis, repair, and maintenance
+            of physical computer components such as processors, memory, and
+            storage devices. <br /><br />
+            Technicians troubleshoot problems, replace faulty parts, and ensure
+            systems operate efficiently, extending the life and performance of
+            electronic devices.
+          </p>
+          <p id="showElement-ser3">
+            Beyond technical expertise, I believe that collaboration and
+            continuous learning are key to success in this field. Working in
+            team environments has allowed me to refine my communication skills,
+            ensuring seamless coordination with designers, project managers, and
+            fellow developers. I have experience working in Agile development
+            settings, where adaptability and problem-solving are crucial.
+            Additionally, I am always eager to explore emerging technologies
+            such as artificial intelligence, cloud computing, and cybersecurity
+            to stay ahead of industry trends and deliver innovative solutions.
+            What truly drives me as a developer is the opportunity to create
+            impactful software that enhances people's lives. I take pride in
+            writing clean, maintainable code that contributes to scalable and
+            efficient systems. Whether developing a user-friendly mobile app or
+            automating a business process, I find satisfaction in knowing that
+            my work has a real-world impact. Looking ahead, I am excited to
+            continue growing as a developer, embracing new challenges, and
+            contributing to projects that make a difference.
+          </p>
+          <button
+            type="button"
+            class="btn"
+            onclick="document.getElementById('showElement-ser3').style.display='block'"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="social">
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class="bx bxl-facebook"></i></a>
-            <a href="#"><i class="bx bxl-instagram"></i></a>
-        </div>
-        <p class="copyright">
-            &copy; Carl Jeffrey De Guzman - All Rights Reserved
-        </p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/carl-jeffrey-de-guzman-5825901b1/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://www.facebook.com/carljeffrey1/"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/carljeffreydeguzman/"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+      <p class="copyright">
+        &copy; Carl Jeffrey De Guzman - All Rights Reserved
+      </p>
     </footer>
     <script src="script.js"></script>
-</body>
-
-
+  </body>
 </html>

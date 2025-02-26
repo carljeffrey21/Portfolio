@@ -190,7 +190,7 @@ span {
     background: var(--bg-color);
 
 }
-.about #showElement {
+.about #showElement-abt {
     display: none;
 }
 
@@ -272,6 +272,18 @@ span {
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+
+.services .services-container .services-box #showElement-ser1 {
+    display: none;
+}
+
+.services .services-container .services-box #showElement-ser2 {
+    display: none;
+}
+
+.services .services-container .services-box #showElement-ser3 {
+    display: none;
 }
 
 .projects {
